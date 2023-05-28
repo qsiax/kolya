@@ -1,0 +1,39 @@
+.me {
+
+    &__container {
+        min-height: 100vh;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 87px;
+        span {
+            color: $primary-color;
+        }
+    }
+
+    &__text {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 87px;
+        span {
+            color: $primary-color;
+        }
+    }
+
+    .mb40 {
+        margin-bottom: 40px;
+    }
+    .ml30 {
+        margin-left: 30px;
+    }
+}
+

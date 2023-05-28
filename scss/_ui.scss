@@ -1,0 +1,22 @@
+$main-color: #fff;
+$primary-color: #7B61FF;
+$text: #000;
+$transition: all .5s ease;
+$font: 'Manrope', sans-serif;;
+$bg: url(../source/bg.jpg);
+
+.bg {
+    background: $bg;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full {
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+}

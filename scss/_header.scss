@@ -1,0 +1,30 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-top: 52px;
+    }
+
+    &__list {
+        display: flex;
+        li {
+            margin-right: 140px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        li a {
+            position: relative;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 44px;
+        }
+    }
+
+}
